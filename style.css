@@ -26,8 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
   }
 
   .tree-container .avatar {
@@ -37,8 +36,7 @@
     align-items: center;
     justify-content: center;
     border: 4px solid var(--Teal);
-    border-radius: 50%;
-    
+    border-radius: 50%;  
   }
 
   .tree-container .avatar img {
@@ -47,18 +45,11 @@
     border-radius: 50%;
   }
 
-  /*.tree-container .user {
-    margin-top: 20px;
-    color: var(--Teal);
-    font-size: 15px;
-  }*/
-
   .tree-container .nome-empresa {
     margin-top: 15px;
     color: var(--Teal);
     font-size: 38px;
-    text-align: center;
-    
+    text-align: center;  
   }
 
   .tree-container .links-container {
@@ -86,14 +77,8 @@
     transition: ease 0.5s;
   }
 
-    /*.tree-container .acesse {
-      margin-top: 25px;
-      color: var(--Teal);
-      font-size: 20px;
-    }*/
-
   .tree-container .socials-container {
-    margin-top: 10px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -109,8 +94,8 @@
     }
 
     .socials-container .social img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 20%;
     }
 
