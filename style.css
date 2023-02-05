@@ -63,17 +63,16 @@
 
   .links-container .link {
     margin-top: 15px;
-    width: 250px;
+    width: 230px;
     border: 2px solid var(--Teal);
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-
     text-align: center;
-    padding: 12px 0;
+    padding: 8px 0;
     transition: ease 0.3s;
-    text-transform: uppercase;
+   
   }
 
   .links-container .link:hover {
@@ -105,7 +104,7 @@
     }
 
    /*-----------------------------------------------------------------------*/
-    /*CURSOS CREDENCIADOS*/
+  /*CURSOS CREDENCIADOS*/
 
     .container-cursos {
     width: 100vw;
@@ -118,54 +117,45 @@
 
     .container-cursos .cursos-credenciados {
     color: var(--Teal);
-    font-size: 35px;
+    font-size: 45px;
     margin-left: 1%;
-    margin-top: 15px;
+    margin-top: 8px;
     font-family: 'Dancing Script', cursive; 
     }
 
     .cursos-credenciados .lista-curso-credenciados {
     margin-top: 10px;
     color: var(--Teal);
-    font-size: 16px;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 20px;
-
+    font-size: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Roboto', sans-serif;
     }
 
     ul {
     margin-top: 10px;
     color: var(--Teal);
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
-    
     }
 
-    p {
-    margin-top: 20px;
-    color: var(--Teal);
-    font-size: 12px;
-    }
-    
     .presencial {
-    border: 2px solid #008080;
-    border-radius: 6px;
+    border: 0.5px solid #008080;
+    border-radius: 3px;
     background-color: #008080;
-    font-size: 8px;
-      
+    font-size: 7px;
+    font-family: 'Roboto', sans-serif; 
     color:#ddfdef;
-    text-transform: uppercase;
     padding: 1px 0;
     }
 
-  .online {
-    border: 2px solid #2abd7d;
-    border-radius: 6px;
+   .online {
+    border: 0.5px solid #2abd7d;
+    border-radius: 3px;
     background-color: #2abd7d;
-    font-size: 8px;
-        
+    font-size: 7px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;   
     color:#ddfdef;
-    text-transform: uppercase;
     padding: 1px 0;
   }
