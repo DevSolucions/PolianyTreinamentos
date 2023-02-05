@@ -47,9 +47,9 @@
   }
 
   .tree-container .nome-empresa {
-    margin-top: 15px;
+    margin-top: 5px;
     color: var(--Teal);
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Dancing Script', cursive;  
   }
@@ -61,7 +61,7 @@
   }
 
   .links-container .link {
-    margin-top: 15px;
+    margin-top: 10px;
     width: 280px;
     border: 2px solid var(--Teal);
     border-radius: 15px;
@@ -71,7 +71,6 @@
     text-align: center;
     padding: 8px 0;
     transition: ease 0.3s;
-   
   }
 
   .links-container .link:hover {
@@ -84,7 +83,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     }
     
     .socials-container .social {
@@ -157,4 +156,5 @@
     margin-left: 4px;   
     color:#ddfdef;
     padding: 1px 0;
+    flex-direction: column;
   }
