@@ -78,7 +78,7 @@
   }
 
   .tree-container .socials-container {
-    margin-top: 26px;
+    margin-top: 23px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -162,8 +162,3 @@
     text-transform: uppercase;
     padding: 1px 0;
   }
-        
-        /*position:relative; 
-        left: 190px;*/
-        /*font-family: 'Dancing Script', cursiva;*/
-
