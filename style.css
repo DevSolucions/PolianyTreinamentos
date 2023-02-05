@@ -51,8 +51,7 @@
     color: var(--Teal);
     font-size: 50px;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
-    
+    font-family: 'Dancing Script', cursive;  
   }
 
   .tree-container .links-container {
@@ -63,7 +62,7 @@
 
   .links-container .link {
     margin-top: 15px;
-    width: 230px;
+    width: 280px;
     border: 2px solid var(--Teal);
     border-radius: 15px;
     font-size: 18px;
@@ -117,9 +116,9 @@
 
     .container-cursos .cursos-credenciados {
     color: var(--Teal);
-    font-size: 48px;
+    font-size: 30px;
     margin-left: 1%;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Roboto', sans-serif; 
     }
 
     .cursos-credenciados .lista-curso-credenciados {
@@ -135,7 +134,8 @@
     margin-top: 10px;
     color: var(--Teal);
     font-size: 18px;
-    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 3px;
     }
 
     .presencial {
