@@ -78,7 +78,7 @@
   }
 
   .tree-container .socials-container {
-    margin-top: 30px;
+    margin-top: 26px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
