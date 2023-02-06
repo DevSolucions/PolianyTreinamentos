@@ -64,6 +64,7 @@
     margin-top: 10px;
     width: 280px;
     border: 2px solid var(--Teal);
+    background: var(--Teal);
     border-radius: 15px;
     font-size: 18px;
     font-weight: 600;
@@ -71,12 +72,13 @@
     text-align: center;
     padding: 8px 0;
     transition: ease 0.3s;
+    color:#d9faec;
   }
 
   .links-container .link:hover {
-    background: var(--Teal);
-    color: #d9faec;
+    background: #b3f7da;
     transition: ease 0.5s;
+    color: var(--Teal);
   }
 
   .tree-container .socials-container {
