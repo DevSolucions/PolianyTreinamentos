@@ -76,9 +76,10 @@
   }
 
   .links-container .link:hover {
-    background: #d9faec;
-    transition: ease 0.5s;
-    color: #4dbf9e;
+  background: #d9faec;
+  border: 2px solid #008080;
+  color: #008080;
+  transition: ease 0.5s;
   }
 
   .tree-container .socials-container {
