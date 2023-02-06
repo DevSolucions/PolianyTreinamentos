@@ -67,7 +67,7 @@ body, html {
   width: 280px;
   border: 2px solid #4dbf9e;
   background: #4dbf9e;
-  color:#d9faec;
+  color: #d9faec;
   border-radius: 15px;
   font-size: 18px;
   font-weight: 600;
@@ -82,7 +82,7 @@ body, html {
   border: 2px solid #008080;
   color: #008080;
   transition: ease 0.5s;
-  
+
 }
 
 .tree-container .socials-container {
@@ -111,25 +111,28 @@ body, html {
 /*CURSOS SENAR-MG*/
 
 header h1 {
-  width: 550px;
-  font-size: 35px;
+  width: 100vw;
+  font-size: 34px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  justify-content: center;
   display: flex;
-  padding: 10px;
-  z-index: 99;
+  display: flexbox;
+  padding: 15px;
+  background-color: #008080;
+  color: #d9faec;
 }
 
 section {
-  width: 550px;
+  width: 100vw;
   padding: 10px;
+
 }
 
 section h1 {
-  position: relative;
   border: 2px solid #4dbf9e;
   background: #4dbf9e;
-  color:#d9faec;
+  color: #d9faec;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   border-radius: 15px;
@@ -137,29 +140,44 @@ section h1 {
 }
 
 .presencial {
-background-color: #4dbf9e;
-transform:translateY(-95%) scaley(0);
-transition: 1s;
-position: relative;
-border-radius: 15px;
+  height: 20px;
+  background-color: #4dbf9e;
+  transform: translateY(-95%) scaley(0);
+  transition: 1s;
+  border-radius: 15px;
 
 }
 
-section h1:hover ~.presencial {
+section h1:hover~.presencial {
   transform: translateY(0)scaley(1);
 
 }
 
-
-/*.online {
- 
-
-
+.online {
+  height: 20px;
+  background-color: #4dbf9e;
+  transform: translateY(-95%) scaley(0);
+  transition: 1s;
+  position: relative;
+  border-radius: 15px;
 }
-.presencial-online {
-  
 
-}*/
+section h1:hover~.online {
+  transform: translateY(0)scaley(1);
+}
+
+.presencial-online {
+  height: 20px;
+  background-color: #4dbf9e;
+  transform: translateY(-95%) scaley(0);
+  transition: 1s;
+  position: relative;
+  border-radius: 15px;
+}
+
+section h1:hover ~ .presencial-online {
+  transform: translateY(0)scaley(1);
+}
 
 ul {
   font-size: 18px;
