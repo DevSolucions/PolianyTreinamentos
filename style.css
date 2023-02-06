@@ -1,227 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400&display=swap');
+
 :root {
-    --body-bg-color:#d9faec;
-    --Teal: #008080;
-  }
-  * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     text-decoration: none;
-     color:#008080;
-  }
+  --body-bg-color: #d9faec;
+  --Teal: #008080;
+}
 
-  body, html {
-    background: var(--body-bg-color);
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #008080;
+}
 
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+body, html {
+  background: var(--body-bg-color);
+}
 
-  .container .tree-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-  }
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .tree-container .avatar {
-    width: 213px;
-    height: 213px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 4px solid var(--Teal);
-    border-radius: 50%;  
-  }
+.container .tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .tree-container .avatar img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
+.tree-container .avatar {
+  width: 213px;
+  height: 213px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--Teal);
+  border-radius: 50%;
+}
 
-  .tree-container .nome-empresa {
-    margin-top: 5px;
-    color: var(--Teal);
-    font-size: 45px;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;  
-  }
+.tree-container .avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
-  .tree-container .links-container {
-    margin: to 17px;
-    display: flex;
-    flex-direction: column;
-  }
+.tree-container .nome-empresa {
+  margin-top: 5px;
+  color: var(--Teal);
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
 
-  .links-container .link {
-    margin-top: 10px;
-    width: 280px;
-    border: 2px solid #4dbf9e;
-    background: #4dbf9e;
-    color:#d9faec;
-    border-radius: 15px;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 8px 0;
-    transition: ease 0.3s;
-  }
+.tree-container .links-container {
+  margin: to 17px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .links-container .link:hover {
+.links-container .link {
+  margin-top: 10px;
+  width: 280px;
+  border: 2px solid #4dbf9e;
+  background: #4dbf9e;
+  color:#d9faec;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 8px 0;
+  transition: ease 0.3s;
+}
+
+.links-container .link:hover {
   background: #d9faec;
   border: 2px solid #008080;
   color: #008080;
   transition: ease 0.5s;
-  }
-
-  .tree-container .socials-container {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    }
-    
-    .socials-container .social {
-    transform: scale(0.9);
-    transition: ease 0.2s;
-    }
-    
-    .socials-container .social:hover {
-    transform: scale(1);
-    }
-
-    .socials-container .social img {
-    width: 40px;
-    height: 40px;
-    border-radius: 20%;
-    }
-   /*-----------------------------------------------------------------------*/
-  /*CURSOS SENAR-MG*/
-
-header {
-  font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
+  
 }
 
-.container-cursos {
-
-  width: 100vw;
-  height: 100vh;
+.tree-container .socials-container {
+  margin-top: 20px;
   display: grid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.socials-container .social {
+  transform: scale(0.9);
+  transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
+
+.socials-container .social img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+}
+
+/*-----------------------------------------------------------------------*/
+/*CURSOS SENAR-MG*/
+
+header h1 {
+  width: 550px;
+  font-size: 35px;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  z-index: 99;
+}
+
+section {
+  width: 550px;
+  padding: 10px;
+}
+
+section h1 {
+  position: relative;
+  border: 2px solid #4dbf9e;
+  background: #4dbf9e;
+  color:#d9faec;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+
 }
 
 .presencial {
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-
-  background-color: rgb(215, 181, 247);
+background-color: #4dbf9e;
+transform:translateY(-95%) scaley(0);
+transition: 1s;
+position: relative;
+border-radius: 15px;
 
 }
 
-.online {
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
+section h1:hover ~.presencial {
+  transform: translateY(0)scaley(1);
 
-  background-color: rgb(210, 255, 166);
+}
+
+
+.online {
+ 
 
 }
 .presencial-online {
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
+  
 
-  background-color: aqua;
 }
 
 ul {
   font-size: 18px;
   align-items: center;
   justify-content: center;
-  padding: 3px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
 
 }
-
-
-
-/*.container-cursos {
-    width: 100vw;
-    height: 100vh;
-    font-size: 38px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .container-cursos .cursos-credenciados {
-    color: var(--Teal);
-    font-size: 30px;
-    margin-left: 1%;
-    font-family: 'Roboto', sans-serif; 
-    }
-
-    .cursos-credenciados .lista-curso-credenciados {
-    margin-top: 10px;
-    color: var(--Teal);
-    font-size: 1px;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-family: 'Roboto', sans-serif;
-    }
-
-    ul {
-    margin-top: 10px;
-    color: var(--Teal);
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 3px;
-    }
-
-    .presencial {
-    border: 0.5px solid #008080;
-    border-radius: 3px;
-    background-color: #008080;
-    font-size: 7px;
-    font-family: 'Roboto', sans-serif; 
-    color:#ddfdef;
-    padding: 1px 0;
-    }
-
-   .online {
-    border: 0.5px solid #2abd7d;
-    border-radius: 3px;
-    background-color: #2abd7d;
-    font-size: 7px;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 4px;   
-    color:#ddfdef;
-    padding: 1px 0;
-    flex-direction: column;
-  }*/
