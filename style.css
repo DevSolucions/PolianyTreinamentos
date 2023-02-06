@@ -103,9 +103,74 @@
     border-radius: 20%;
     }
    /*-----------------------------------------------------------------------*/
-  /*CURSOS CREDENCIADOS*/
+  /*CURSOS SENAR-MG*/
 
-    .container-cursos {
+header {
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.container-cursos {
+
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr); 
+  font-family: 'Roboto', sans-serif;
+}
+
+.presencial {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+
+  background-color: rgb(215, 181, 247);
+
+}
+
+.online {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+
+  background-color: rgb(210, 255, 166);
+
+}
+.presencial-online {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+
+  background-color: aqua;
+}
+
+ul {
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+
+}
+
+
+
+/*.container-cursos {
     width: 100vw;
     height: 100vh;
     font-size: 38px;
@@ -158,4 +223,4 @@
     color:#ddfdef;
     padding: 1px 0;
     flex-direction: column;
-  }
+  }*/
