@@ -117,16 +117,44 @@ header h1 {
   text-align: center;
   justify-content: center;
   display: flex;
-  display: flexbox;
-  padding: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
   background-color: #008080;
   color: #d9faec;
 }
 
-section {
-  width: 100vw;
+section.container-cursos {
+  border: 2px solid #4dbf9e;
   padding: 10px;
+  cursor: pointer;
+  /*background: #4dbf9e;
+  color: #d9faec;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;*/
+  
+}
 
+section.container-cursos div.list-presencial {
+  height: 0;
+  overflow: hidden;
+  transition: 2s;
+}
+
+section .cursos .lista-presencial.ativo {
+  height: 100px;
+  transition: 2s;
+ 
+
+}
+
+
+
+
+/*section {
+  width: 100vw;
+  height: 100vh;
+  padding: 5px;
 }
 
 section h1 {
@@ -139,51 +167,38 @@ section h1 {
 
 }
 
-.presencial {
-  height: 20px;
-  background-color: #4dbf9e;
-  transform: translateY(-95%) scaley(0);
-  transition: 1s;
-  border-radius: 15px;
+section .presencial {
+  height: 0;
+  overflow: hidden;
+  padding: 6px;
+
+}
+section .presencial .lista-presencial.ativo{
+  height: 100px;
+
 
 }
 
-section h1:hover~.presencial {
-  transform: translateY(0)scaley(1);
+section .online {
+  height: 0;
+  overflow: hidden;
+  padding: 6px;
 
 }
 
-.online {
-  height: 20px;
-  background-color: #4dbf9e;
-  transform: translateY(-95%) scaley(0);
-  transition: 1s;
-  position: relative;
-  border-radius: 15px;
+section .presencial-online {
+  height: 0;
+  overflow: hidden;
+  padding: 6px;
+
 }
 
-section h1:hover~.online {
-  transform: translateY(0)scaley(1);
-}
 
-.presencial-online {
-  height: 20px;
-  background-color: #4dbf9e;
-  transform: translateY(-95%) scaley(0);
-  transition: 1s;
-  position: relative;
-  border-radius: 15px;
-}
 
-section h1:hover ~ .presencial-online {
-  transform: translateY(0)scaley(1);
-}
-
-ul {
+/*ul {
   font-size: 18px;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   padding: 5px;
-
-}
+}*/
