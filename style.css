@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400&display=swap');
-:root {
-    --body-bg-color: #d9faec;
-    --Teal: #008080;
-}
 
 * {
     margin: 0;
@@ -12,9 +8,8 @@
     color: #008080;
 }
 
-body,
-html {
-    background: var(--body-bg-color);
+body, html {
+    background:#d9faec;
 }
 
 .container {
@@ -120,13 +115,13 @@ header h1 {
     justify-content: center;
     display: flex;
     padding: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     background-color: #008080;
     color: #ecfff7;
 }
 
 section.container-cursos {
-    padding: 6px;
+    padding: 8px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -137,16 +132,16 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
-    display: flex;
 }
 
 ul {
     padding: 2px;
     font-size: 15px;
+    
 }
 
 section.container-cursos div.lista-presencial {
@@ -154,12 +149,12 @@ section.container-cursos div.lista-presencial {
     padding: 2px;
     height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 section.container-cursos div.lista-presencial.ativo {
-    height: 155px;
-    transition: 0.5s;
+    height: 135px;
+    transition: 0.4s;
 }
 
 section.container-cursos div.lista-online {
@@ -167,12 +162,12 @@ section.container-cursos div.lista-online {
     padding: 2px;
     height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 section.container-cursos div.lista-online.ativo {
-    height: 130px;
-    transition: 0.5s;
+    height: 120px;
+    transition: 0.4s;
 }
 
 section.container-cursos div.lista-presencial-online {
@@ -180,10 +175,10 @@ section.container-cursos div.lista-presencial-online {
     padding: 2px;
     height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 section.container-cursos div.lista-presencial-online.ativo {
-    height: 130px;
-    transition: 0.5s;
+    height: 110px;
+    transition: 0.4s;
 }
