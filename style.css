@@ -71,11 +71,11 @@ body, html {
     padding: 8px 0;
     transition: ease 0.3s;
 }
-      /*SUBSTITUIR O "HOVER"*/                             
+                             
 .links-container .link:hover {   
-    background: #d9faec;
+    background: #008080;
     border: 2px solid #008080;
-    color: #008080;
+    color: #d9faec;
     transition: ease 0.5s;
 }
 
