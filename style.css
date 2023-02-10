@@ -45,7 +45,7 @@ body, html {
 
 .tree-container .nome-empresa {
     margin-top: 5px;
-    color: var(--Teal);
+    color: #008080;
     font-size: 45px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
