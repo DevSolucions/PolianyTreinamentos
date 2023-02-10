@@ -153,7 +153,7 @@ section.container-cursos div.lista-presencial {
 }
 
 section.container-cursos div.lista-presencial.ativo {
-    height: 140px;
+    height: auto;
     transition: 0.4s;
 }
 
@@ -166,7 +166,7 @@ section.container-cursos div.lista-online {
 }
 
 section.container-cursos div.lista-online.ativo {
-    height: 120px;
+    height: auto;
     transition: 0.4s;
 }
 
@@ -179,6 +179,6 @@ section.container-cursos div.lista-presencial-online {
 }
 
 section.container-cursos div.lista-presencial-online.ativo {
-    height: 110px;
+    height: auto;
     transition: 0.4s;
 }
