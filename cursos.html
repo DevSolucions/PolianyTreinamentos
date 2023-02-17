@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursos.css">
     <link rel="icon" href="./Image/icon.png">
     <title>Poly - Cursos Credenciados SENAR-MG</title>
 </head>
@@ -17,12 +17,21 @@
 <body>
     <main>
         <section class="container-cursos">
+            <div class="presencial-online" onclick="showhide('#presencial-online')">
+                <h2>
+                    Cursos Presenciais e Online
+                </h2>
+                <div class="lista-presencial-online" id="presencial-online">
+                    <ul>- <b>Sexualidade e Prevenção (12 a 14 anos)</b></ul>
+                    <ul>- <b>Doenças Transmissíveis</b></ul>
+                </div>
+            </div>
             <div class="presencial" onclick="showhide('#presencial')">
                 <h2>
                     Cursos Presenciais
                 </h2>
                 <div class="lista-presencial" id="presencial">
-                    <ul>- <b>Prev. de Acidentes e Noções Básicas de P. Socorros</b></ul>
+                    <ul>- <b>Prevencão de Acidentes e Noções Básicas de Primeiros Socorros</b></ul>
                     <ul>- <b>Sexualidade e Prevenção (09 a 11 anos)</b></ul>
                     <ul>- <b>Saúde na Terceira Idade</b></ul>
                     <ul>- <b>Saúde Reprodutiva</b></ul>
@@ -40,15 +49,7 @@
                     <ul>- <b>Saúde Reprodutiva (15 a 17 anos)</b></ul>
                 </div>
             </div>
-            <div class="presencial-online" onclick="showhide('#presencial-online')">
-                <h2>
-                    Cursos Presenciais e Online
-                </h2>
-                <div class="lista-presencial-online" id="presencial-online">
-                    <ul>- <b>Sexualidade e Prevenção (12 a 14 anos)</b></ul>
-                    <ul>- <b>Doenças Transmissíveis</b></ul>
-                </div>
-            </div>
+            
         </section>
     </main>
 
