@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body, html {
+    background: #d9faec;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar {
+    width: 213px;
+    height: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #008080;
+    border-radius: 50%;
+}
+
+.tree-container .avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.tree-container .nome-empresa {
+    margin-top: 5px;
+    color: #008080;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.tree-container .links-container {
+    margin: to 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 10px;
+    width: 280px;
+    border: 2px solid #4dbf9e;
+    background-color: #4dbf9e;
+    color: #ecfff7;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 8px 0;
+    position: relative;
+    transition: all .25s;
+}
+
+h4 {
+    position: relative;
+    z-index: 2;
+}
+
+.link:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #008080;
+    border-radius: 11px;
+    transition: all .25s;
+
+}
+
+.link:hover {
+    color: #ecfff7;
+    border: 2px solid #008080;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+.tree-container .socials-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.socials-container .social {
+    transform: scale(0.9);
+    transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+    transform: scale(1);
+}
+
+.socials-container .social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
