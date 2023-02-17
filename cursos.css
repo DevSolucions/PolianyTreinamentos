@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #008080;
+}
+
+body, html {
+    background:#d9faec;
+}
+
+header h1 {
+    width: 100vw;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #008080;
+    color: #ecfff7;
+}
+
+section.container-cursos {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h2 {
+    background-color: #4dbf9e;
+    color: #ecfff7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    padding: 5px;
+    font-size: 15px;   
+}
+
+section.container-cursos div.lista-presencial {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+section.container-cursos div.lista-presencial.ativo {
+    height: auto;
+    transition: 0.4s;
+}
+
+section.container-cursos div.lista-online {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+section.container-cursos div.lista-online.ativo {
+    height: auto;
+    transition: 0.4s;
+}
+
+section.container-cursos div.lista-presencial-online {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+section.container-cursos div.lista-presencial-online.ativo {
+    height: auto;
+    transition: 0.4s;
+}
