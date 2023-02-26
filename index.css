@@ -38,13 +38,13 @@ body, html {
 
 .tree-container .avatar .image {
     position: absolute;
-    width: 240px;
-    height: 240px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
 .tree-container .nome-empresa {
-    margin-top: 5px;
+    margin-top: 15px;
     color: #008080;
     font-size: 45px;
     text-align: center;
