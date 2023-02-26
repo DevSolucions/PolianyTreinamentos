@@ -25,10 +25,11 @@ header h1 {
     color: #ecfff7;
 }
 
-section.container-cursos {
+.container-cursos {
     padding: 8px;
     cursor: pointer;
     border-radius: 5px;
+
 }
 
 h2 {
@@ -49,7 +50,7 @@ ul {
     font-size: 15px;   
 }
 
-section.container-cursos div.lista-presencial {
+.container-cursos div.lista-presencial {
     font-family: 'Roboto', sans-serif;
     padding: 2px;
     height: 0;
@@ -57,12 +58,12 @@ section.container-cursos div.lista-presencial {
     transition: 0.4s;
 }
 
-section.container-cursos div.lista-presencial.ativo {
+.container-cursos div.lista-presencial.ativo {
     height: auto;
     transition: 0.4s;
 }
 
-section.container-cursos div.lista-online {
+.container-cursos div.lista-online {
     font-family: 'Roboto', sans-serif;
     padding: 2px;
     height: 0;
@@ -70,12 +71,12 @@ section.container-cursos div.lista-online {
     transition: 0.4s;
 }
 
-section.container-cursos div.lista-online.ativo {
+.container-cursos div.lista-online.ativo {
     height: auto;
     transition: 0.4s;
 }
 
-section.container-cursos div.lista-presencial-online {
+.container-cursos div.lista-presencial-online {
     font-family: 'Roboto', sans-serif;
     padding: 2px;
     height: 0;
@@ -83,7 +84,53 @@ section.container-cursos div.lista-presencial-online {
     transition: 0.4s;
 }
 
-section.container-cursos div.lista-presencial-online.ativo {
+.container-cursos div.lista-presencial-online.ativo {
     height: auto;
     transition: 0.4s;
+}
+
+/* SEPARAR OS ELEMENTOS EM 2*/
+
+.container-footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content:space-between;
+    
+}
+
+.container-footer .contact {
+    width: 600px;
+    background-color: #008080;
+    border: 2px solid #008080;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 0;
+
+}
+
+h4 {
+    z-index: 2;
+    color: #ecfff7;
+    text-align: center;
+}
+
+.container-footer .back {
+    width: 45px;
+    background-color: #008080;
+    border: 2px solid #008080;
+    border-radius: 15px;
+    
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    border-radius: 15%;
+    text-align: center;
 }
