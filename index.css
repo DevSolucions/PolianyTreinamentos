@@ -44,7 +44,7 @@ body, html {
 }
 
 .tree-container .name-empresa {
-    margin-top: 15px;
+    margin-top: 14px;
     color: #008080;
     font-size: 44px;
     text-align: center;
@@ -110,7 +110,7 @@ h4 {
 
 .decor {
     width: 170px;
-    padding-top: 15px;
+    padding: 8px;
     justify-content: center;
 
 }
