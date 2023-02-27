@@ -38,8 +38,8 @@ body, html {
 
 .tree-container .avatar .image {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     border-radius: 50%;
 }
 
@@ -100,8 +100,14 @@ h4 {
     width: 100%;
 }
 
+.decor {
+    width: 170px;
+    padding-top: 15px;
+    justify-content: center;
+
+}
+
 .tree-container .socials-container {
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
