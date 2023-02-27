@@ -44,7 +44,7 @@ body, html {
 }
 
 .tree-container .name-empresa {
-    margin-top: 14px;
+    margin-top: 12px;
     color: #008080;
     font-size: 44px;
     text-align: center;
@@ -52,7 +52,7 @@ body, html {
 }
 
 .tree-container .name-curso {
-    padding: 8px;
+    padding: 6px;
     color:#4dbf9e;
     font-size: 33px;
     text-align: center;
@@ -60,7 +60,7 @@ body, html {
 }
 
 .tree-container .links-container {
-    margin: to 17px;
+    margin: to 15px;
     display: flex;
     flex-direction: column;
 }
