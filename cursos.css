@@ -89,8 +89,6 @@ ul {
     transition: 0.4s;
 }
 
-/* SEPARAR OS ELEMENTOS EM 2*/
-
 .container-footer {
     width: 100vw;
     position: absolute;
@@ -98,12 +96,11 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 15px;
-    justify-content:space-between;
-    
+    justify-content:space-between; 
 }
 
 .container-footer .contact {
-    width: 600px;
+    width: 100vw;
     background-color: #008080;
     border: 2px solid #008080;
     border-radius: 15px;
@@ -111,7 +108,8 @@ ul {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     padding: 8px 0;
-
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 h4 {
@@ -125,12 +123,12 @@ h4 {
     background-color: #008080;
     border: 2px solid #008080;
     border-radius: 15px;
-    
+    margin-right: 20px;  
 }
 
 img {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 15%;
     text-align: center;
 }
