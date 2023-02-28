@@ -38,8 +38,8 @@ body, html {
 
 .tree-container .avatar .image {
     position: absolute;
-    width: 255px;
-    height: 255px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
